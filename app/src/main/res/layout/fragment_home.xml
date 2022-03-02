@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomeFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/mploader"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/loading"
+        app:lottie_renderMode="automatic"
+        app:lottie_repeatCount="100000"
+        app:lottie_repeatMode="restart"
+        app:lottie_speed="2" />
+    <RelativeLayout
+        android:layout_above="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/mainLayout"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/categiryRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_cate" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="2"
+            android:orientation="vertical"
+            android:id="@+id/allVidiosRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/categiryRv"
+            tools:listitem="@layout/item_videos" />
+    </RelativeLayout>
+
+    <com.applovin.mediation.ads.MaxAdView
+        android:id="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        maxads:adUnitId="68d2b502f2df8b96"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </com.applovin.mediation.ads.MaxAdView>
+</RelativeLayout>

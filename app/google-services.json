@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138078227534",
+    "project_id": "template-store---all-types-of",
+    "storage_bucket": "template-store---all-types-of.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138078227534:android:7459e9c1234ec104ff071f",
+        "android_client_info": {
+          "package_name": "com.codewithsk.chetankoli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138078227534-h2lti2r4fesb9l2ihqt66vouee070m3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHmwW_9n6Y1Vl5YVNi2z6Cq8OPnPycZQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138078227534-h2lti2r4fesb9l2ihqt66vouee070m3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

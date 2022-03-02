@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".Activity.VideosActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_buttons"
+        android:layout_below="@id/adView"
+        app:use_controller="true" />
+    `<ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_replay_24"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/replayBtn"/>
+
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background"
+        maxads:adUnitId="68d2b502f2df8b96">
+
+    </com.applovin.mediation.ads.MaxAdView>
+
+    <RelativeLayout
+        android:id="@+id/rl_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10sp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/fabDownload"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                app:neumorph_backgroundColor="@color/background"
+                app:neumorph_shadowColorDark="@color/dark_shadow"
+                app:neumorph_shadowColorLight="@color/light_shadow"
+                app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="28dp"
+                    android:gravity="center"
+                    android:text="Save" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_menu_save" />
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/fabShare"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                app:neumorph_backgroundColor="@color/background"
+                app:neumorph_shadowColorDark="@color/dark_shadow"
+                app:neumorph_shadowColorLight="@color/light_shadow"
+                app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="8dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_menu_share"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="28dp"
+                    android:gravity="center"
+                    android:text="Share" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/joinGroup"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                app:neumorph_backgroundColor="@color/background"
+                app:neumorph_shadowColorDark="@color/dark_shadow"
+                app:neumorph_shadowColorLight="@color/light_shadow"
+                app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+                <TextView
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="28dp"
+                    android:gravity="center"
+                    android:text="Join whatsapp" />
+
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

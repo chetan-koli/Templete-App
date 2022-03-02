@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/clickView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/containerCard"
+        style="@style/ShapeAppearance.Neumorph"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        app:neumorph_backgroundColor="@color/background"
+        app:neumorph_inset="7dp"
+        app:neumorph_shadowColorDark="@color/dark_shadow"
+        app:neumorph_shadowColorLight="@color/light_shadow"
+        app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/mainCatLoaderImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+              />
+        </LinearLayout>
+    </soup.neumorphism.NeumorphCardView>
+    <TextView
+        android:id="@+id/catName"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/containerCard"
+        android:text="Loading.."
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

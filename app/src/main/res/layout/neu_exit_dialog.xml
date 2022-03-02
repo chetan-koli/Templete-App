@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_close_dialog"
+    android:gravity="center"
+    android:background="#81FFFFFF"
+    android:tag="layout/dialog_layout_exit_app_0"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:neumorph_backgroundColor="@color/neuOnPrimory"
+        app:neumorph_shadowColorDark="@color/dark_shadow"
+        app:neumorph_shadowColorLight="@color/light_shadow"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/exit_logo"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/exit"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:textSize="18dp"
+                android:layout_below="@id/exit_logo"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:gravity="center"
+                android:id="@+id/tv_alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do You Want to Exit That Application?" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_alert"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:weightSum="1"
+                >
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/tv_yes"
+                    app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph"
+                    style="@style/ShapeAppearance.Neumorph.Button"
+                    android:layout_width="100dp"
+                    android:layout_weight=".5"
+                    android:layout_height="70dp"
+                    app:neumorph_backgroundColor="@color/neuOnPrimory"
+                    app:neumorph_shadowColorDark="@color/dark_shadow"
+                    app:neumorph_shadowColorLight="@color/light_shadow"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:layout_gravity="center"
+                        android:textColor="#000"/>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/tv_no"
+                    style="@style/ShapeAppearance.Neumorph.Button"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_weight=".5"
+                    app:neumorph_backgroundColor="@color/neuOnPrimory"
+                    app:neumorph_shadowColorDark="@color/dark_shadow"
+                    app:neumorph_shadowColorLight="@color/light_shadow"
+                    app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="No"
+                        android:textColor="#000" />
+                </soup.neumorphism.NeumorphCardView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+</RelativeLayout>

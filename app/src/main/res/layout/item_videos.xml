@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:neumorph_backgroundColor="@color/background"
+    app:neumorph_shadowColorDark="@color/dark_shadow"
+    app:neumorph_shadowColorLight="@color/light_shadow"
+    app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+    <ImageView
+        android:id="@+id/thum_loader_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        android:layout_gravity="center"
+        app:tint="@color/black" />
+</soup.neumorphism.NeumorphCardView>

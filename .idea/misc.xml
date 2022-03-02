@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_baseline_drawer.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_baseline_format_quote_24.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_baseline_replay_24.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_baseline_text.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_file_download_black.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_group_24.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_logout.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_menu_about.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_menu_email.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_menu_flag.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_menu_save.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_menu_share.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_menu_star.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_ondemand_video.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/drawable/ic_share.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_cat_video_list.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_dashboard.xml" value="0.136" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_fast_video_playing.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_privacy_policy.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_video_editing.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/activity_videos.xml" value="0.2" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/ads_loader.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/content_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/drawer_app_bar.xml" value="0.2215909090909091" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_fancy_text.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_games.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_images.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_saved_files.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_videos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_w_status.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_whatsapp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/fragment_wishes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/item_cate.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/item_saved_files.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/item_status.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/item_videos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/layout_about.xml" value="0.14227642276422764" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/native_ads.xml" value="0.2" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/native_banner_ads.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/neu_exit_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/nue_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/view_image_full_screen.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/layout/view_video_full_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/sk777/AndroidStudioProjects/chetankoli2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
